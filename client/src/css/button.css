@@ -1,0 +1,21 @@
+/*
+* @Author: wakouboy
+* @Date:   2018-08-07 10:18:51
+* @Last Modified by:   wakouboy
+* @Last Modified time: 2018-08-07 11:13:40
+*/
+.btn {
+    padding: 2px;
+    border: 1px solid #ddd;
+    line-height: 1;
+    
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.active {
+    background-color: #eee;
+}
+

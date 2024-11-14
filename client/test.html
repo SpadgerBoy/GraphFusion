@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<style>
+div {
+  width: 300px;
+  height: 300px;
+}
+
+.first {
+  margin-right: 150px;
+  fill: red;
+  z-index: 10;
+}
+
+.second {
+  fill: green;
+}
+
+</style>
+
+<body>
+  <div>
+    <div>
+      <h3> JSON </h3> { 
+      nodes: [{'id': 'a'}, {'id': 'b'}]
+      links: [{'source': 'a', 'target': b}] 
+    }
+    </div>
+    <div>
+      <h3> CSV </h3>
+      <table >
+        <tr>
+          <th>Source</th>
+          <th>Target</th>
+          <th>Weight</th>
+        </tr>
+        <tr>
+          <td> a </td>
+          <td> b </td>
+          <td> 1 </td>
+        </tr>
+        <tr>
+          <td>...</td>
+          <td>...</td>
+          <td>...</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>
